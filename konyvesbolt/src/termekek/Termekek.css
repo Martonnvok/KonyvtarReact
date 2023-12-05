@@ -1,0 +1,5 @@
+.termekek{
+    display: grid;
+    flex-direction: row;
+
+}

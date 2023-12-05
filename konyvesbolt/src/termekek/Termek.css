@@ -1,0 +1,38 @@
+.termek {
+    border: 2px solid black;
+    background-color: rgb(160, 236, 236);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    width: 250px;
+    height: 250px;
+}
+
+article{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+    padding: 10px;
+}
+
+button{
+    height: 50px;
+    width: 100px;
+}
+@media screen and (max-width: 600px) {
+  article {
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .termek{
+    border: 2px solid black;
+    background-color: rgb(160, 236, 236);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    width: 250px;
+    height: 250px;
+  }
+}
